@@ -1,0 +1,23 @@
+{
+  "name": "billboard-dle",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "wrangler pages dev",
+    "deploy": "$npm_execpath run build && wrangler pages deploy"
+  },
+  "dependencies": {
+    "axios": "^1.7.3",
+    "billboard-top-100": "^2.6.5",
+    "hono": "^4.5.3",
+    "hono-sessions": "^0.5.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "@hono/vite-cloudflare-pages": "^0.4.2",
+    "@hono/vite-dev-server": "^0.13.1",
+    "vite": "^5.2.12",
+    "wrangler": "^3.57.2"
+  }
+}
