@@ -1,1 +1,16 @@
-h1 { font-family: Arial, Helvetica, sans-serif; }
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.song-row {
+}
+.row-rank {
+  display: block;
+  text-align: center;
+}
+.row-cover {
+}
+.row-title {
+}
+.row-artist {
+}
